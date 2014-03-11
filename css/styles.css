@@ -1,0 +1,106 @@
+body {
+	background: lightblue;
+}
+
+.name h1 {
+	color: #C10027;
+}
+
+h3 {
+	color: #FC9F1D;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+	background: url(../img/logo.png);
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.nav {
+	float: left;
+	list-style: none;
+	color: #C10027;
+	margin: 16px 0 38px 0;
+}
+
+.home,
+.resume,
+.portfolio {
+	float: left;
+	width: 100px;
+	height: 64px;
+	padding: 0 0 0 52px;
+	line-height: 75px;
+	font-size: 1.5em;
+}
+
+.home {
+	background: url(../img/nav_sprite.png) no-repeat left center;
+	background-position: 0 10px;
+
+	transition: background 1s;
+}
+
+.resume {
+	background: url(../img/nav_sprite.png) no-repeat left center;
+	background-position: 0 -102px;
+
+	transition: background 1s;
+}
+
+.portfolio {
+	background: url(../img/nav_sprite.png) no-repeat left center;
+	background-position: 0 -228px;
+	margin-left: 20px;
+
+	transition: background 1s;
+}
+
+.home:hover {
+	background-position: 0 -49px;
+}
+
+.resume:hover {
+	background-position: 0 -169px;
+}
+
+.portfolio:hover {
+	background-position: 0 -280px;
+}
+
+.usmc {
+	border: solid #000 4px;
+	width: 185px;
+	height: 270px;
+	margin: 25px 12px 0 0;
+}
+
+.info,
+.professional {
+	text-align: justify;
+}
+
+
+.resume_bar {
+	background: url(../img/denim.png);
+	color: #fff;
+	height: 100px;
+	max-width: 800px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.portfolio_bar {
+	background: url(../img/denim.png);
+	color: #fff;
+	height: 100px;
+	max-width: 800px;
+	text-align: center;
+	line-height: 50px;
+}
